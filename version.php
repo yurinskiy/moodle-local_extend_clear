@@ -24,10 +24,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2020103100;
+$plugin->version = 2021082700;
 $plugin->requires = 2019111800;
-$plugin->supported = [38];   // Available as of Moodle 3.9.0 or later.
-$plugin->incompatible = 37;   // Available as of Moodle 3.9.0 or later.
+$plugin->supported = [38,39];   // Available as of Moodle 3.9.0 or later.
 $plugin->component = 'local_extend_clear';
-$plugin->maturity = MATURITY_BETA;
-$plugin->release = '1.0';
+$plugin->maturity = MATURITY_STABLE;
+$plugin->release = '1.0.1';
